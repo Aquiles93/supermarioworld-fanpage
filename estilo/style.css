@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+:root {
+  --cor0: #576beea0;
+  --cor1: #eadd49;
+  --cor2: #5bc621;
+  --cor3: #ec3d43bf;
+  --cor4: #39a4a4f3;
+  
+  
+  --fonte-padrao: Arial, Verdana , Helvetica, Sans-serif;
+  --fonte-destaque: "Bebas Neue", cursive;
+  
+   
+    main {
+        padding: 20px;
+        min-width: 300px;
+        max-width: 1200px;
+        margin: auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.248);
+        margin-bottom: 30px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+    }
+    
+  img {
+    width:100%;
+  }
+
+  iframe {
+   
+   width: 85%;
+   padding: 7%;
+   
+  }
+  
+  
+  
+body {
+    background-color: cornflowerblue ;
+    font-family: var(--fonte-padrao);
+    
+}
+
+ header {
+ 
+ font-family: var(--fonte-destaque);
+ text-align: center;
+ padding-top: 40px;
+ margin-bottom: 20px;
+
+}
+
+
+header > h1 {
+    
+    color: var(--cor1);
+   font-size: 3em;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.859);
+    
+}
+
+
+
+main h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-size: large;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+ strong { 
+    color: var(--cor);
+    font-size: larger;
+}
+
+
+p > h1 {
+    font-size: 2cap;
+
+}
+
+p2 {
+   font-size: 2cap;
+   font-family: var(--fonte-destaque);
+   color: rgb(255, 247, 0);
+   text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+
+h2 {
+    color: rgb(19, 80, 193);
+    font-size: 2cap;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+ 
+h3 { 
+    color: rgb(224, 35, 35);
+    font-size: 2cap;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+ h4{
+    font-family: var(--fonte-);
+    font-size: 2cap;
+    color: rgb(28, 177, 17);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+   }
+
+    nav {
+    padding: 10%;
+    text-align: center;
+    
+    }
+    nav > a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav > a:hover {
+        background-color: var(--cor2); 
+        color: var(--cor3);
+        border-radius: 5px;
+        transition-duration: .5s;
+    }
+
+    footer {
+        color: white;
+        font-size: small;
+        margin-bottom: 30px;
+        padding-right: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.563);
+        
+        
+       
+    }
+
+}
